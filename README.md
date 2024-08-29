@@ -111,15 +111,15 @@ We have included in our dashboard various big-and-small details in how it looks.
 
 ## Dashboard Functionalities
 
-Below, we explain some of the key interactive functionalities of our dashboard. The full dashboard can be explored by downloading the [PowerBI dashboard file]().
+Below, we explain some of the key interactive functionalities of our dashboard. The full dashboard can be explored by downloading the [PowerBI dashboard file](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Netflix%20Data%20Analysis%20Project.pbix).
 
 ### Modified Funnel Chart for showing distribution of Ratings
 
-![funnel chart for rating gourp]()
+![funnel chart for rating gourp](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Number%20of%20Titles%20by%20Rating%20Group.png)
 
 ### Information about Titles By Country
 
-![Country chart]()
+![Country chart](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Information%20per%20Country.png)
 
 In the lower left portion of the dashboard, I have included a table that shows, for each country, the number of titles, average rating, number of votes, and number of votes per title. One can click on a specific country to drill all data in the dashboard down to a specific country.
 
@@ -127,6 +127,7 @@ In the lower left portion of the dashboard, I have included a table that shows, 
 
 On the top middle portion of the dashboard, I have included a filter that one can use to drill data down to only Movie, only TV Series, or both. 
 
+![KPIs and Movie-TV filter](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/KPIs%20and%20Filter%20by%20Movies%20or%20TV%20Series.png)
 
 ### Mobile Dashboard
 
