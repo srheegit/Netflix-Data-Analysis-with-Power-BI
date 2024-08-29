@@ -13,16 +13,57 @@ We analyze Netflix movie data using Power BI to generate insights. Below is a sc
 
 We have preprocessed our original data using various means, such as deleting irrelevant columns, creating new groups, and deleting certain rows with missing values.
 
+All Data Preprocessing for this project is done within Power BI's Dataset Builder.
+
 More specifically, we have done the following:
 
 ### Transform Data
 
-### Create Calculations and Formatting Table
+#### Removing Unnecessary Columns
+
+We remove the following columns from our original data: `popular_rank`, `certificate`, `endYear`, `episodes`, `language`, `summary`, `isAdult`, `cast`. We may have found the `isAdult` column, which indicates whether a film is supposedly an adult film or not, but checking the column values indicated that the column has only one value, making the data useless for our purpose.
+
+#### Renaming Columns and Change Their DataTypes
+
+We now rename the columns for consistency and/or ease of use, as follows:
+
+1. `imdb_id` --> `ID`
+2. `title` --> `Title`
+3. `startYear` --> `Start Year`
+4. `runtime` --> `Runtime`
+5. `type` --> `Type`
+6. `origin_country` --> `Country`
+7. `plot` --> `Plot`
+8. `rating` --> `Rating`
+9. `numVotes` --> `Votes`
+10. `genres` --> `Genres`
+11. `image_url` --> `Image URL`
+
+After that, we change the datatype to appropriate datatypes; for example, the `ID` and `Title` columns are set to have a `text` datatype, `Start Year` column is set to have `text` datatype (since we don't want to apply numeric calculations to them and later want to group the years), `Runtime` is set to `Whole Number`, `Country` to `text`, `Rating` to `Decimal Number`, `Votes` to `Whole Number`, `Genres` and `Image URL` to `text`.
+
+#### Excluding Rows with Missing Important Data
+
+We then exclude rows that are missing values in certain columns - for example, we exclude all rows with null value or error in the `Runtime` column, and we replace all rows without a `Rating` or a `Country` value. This is because the rows that don't tell a story will not be as useful to us as rows that have all important data.
+
+#### Creating New Columns
+
+We also want to modify and/or create certain columns. Throughout this process, we use several DAX functions such as `SEARCH` and `SWITCH`.
+
+We now create a new `Rating Group` column which will round down the decimal `Rating` values into a whole number, effectively binning the ratings into ten bins, from `1` through `9`. We also could have created a `Continent` group column, although this would've taken far more manual entry of various countries.
+
+We then create a `Genre` column out of `Genres`, taking only the first genre that appears in each entry of the `Genres` value. This will help us in categorization and make our data analysis simpler.
+
+After creating new columns, we separate the various columns we have into one of various folders, such as `z_hidden` (for less relevant columns), `Attributes`, `Measure`, and `Modeling`.
+
+### Creating Calculations and Formatting Table
 
 We create a series of new measures and store them under the `Calculations` table, and create another table called `Rating Group Formatting` that stores different hexadecimal color values and hexadecimal font colors for different rating groups that we created earlier.
 
+Throughout the process, we use various DAX functions such as `AVERAGE`, `SUM`, and `FILTER`.
+
 The `Calculation` table serves the purpose of providing convenient values for variou axis or filters required in various visual components of our dashboard. For example, the `Average Rating` measure was used in the table about Countries, appearing in the lower left portion of the dashboard. The `Calculation` table has the following groups of measures and is organized in the following hieriarchies:
 
+```
 ├── 0. Total
 │   ├── # Titles
 |   ├── # Votes
@@ -40,10 +81,14 @@ The `Calculation` table serves the purpose of providing convenient values for va
 |   ├── # TV Votes
 │   ├── % TV Votes Label
 │   └── TV Average Rating
+```
+
 
 Most measures' names are self-explanatory; for example, `# Votes` refers to the total number of votes, `% Movie Votes Label` indicates 
 
+### Data Modeling
 
+As we have three tables, we now organize our data model. We link the three tables
 
 ## Dashboard Functionalities
 
