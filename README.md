@@ -4,10 +4,13 @@ We analyze Netflix movie data using Power BI to generate insights. Below is a sc
 
 ![Final Dashboard Screenshot](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Main%20Dashboard.png)
 
-
 ## Description of the Dataset
 
 We have used the [Netflix Movie and TV Shows dataset from Kaggle](https://www.kaggle.com/datasets/snehaanbhawal/netflix-tv-shows-and-movie-list). The "dataset contains the list and metadata of all TV Shows and Movies available on Netflix currently about 7000 taken from the IMDB website." The name of the original table is `Listings`.
+
+Below, we can see the first few rows of our dataset.
+
+![first few rows of our data](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/df.head().png)
 
 ## Business Questions we seek to answer
 
