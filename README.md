@@ -88,7 +88,11 @@ Most measures' names are self-explanatory; for example, `# Votes` refers to the 
 
 ### Data Modeling
 
-As we have three tables, we now organize our data model. We link the three tables
+As we have three tables, we now organize our data model. We bidirectionally link the original `Listings` table and `Rating Group Formatting` table, via the `Rating Group` columns, in many-to-one.
+
+## Styling
+
+We have included in our dashboard various big-and-small details in how it looks. While it would be too long and not very informative to explain everything we have implemented, we followed a general rule: have a gradient background from black to white (mostly black), with gradient background from the Netflix red color to a white color with red tint. The trio of the three colors, red, black, and netflix red, is the theme of the whole dashboard.
 
 ## Dashboard Functionalities
 
