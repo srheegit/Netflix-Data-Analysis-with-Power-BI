@@ -12,7 +12,17 @@ Below, we can see the first few rows of our dataset.
 
 ![first few rows of our data](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/df.head().png)
 
-## Business Questions we seek to answer
+## Relevant Business Questions
+
+Through our data analysis/visualization using PowerBI, we will seek to answer the following business questions:
+
+1. Which country has the highest number of Netflix titles available?
+2. What is the average rating of movies across different genres?
+3. How does the availability of titles vary across different rating categories?
+4. Which genres have the most content available on Netflix?
+5. Which countries have the highest potential for Netflix market expansion?
+
+Those who are interested can jump to the [answers below](#Answers-to-the-Business-Questions). We shall first describe how we have preprocessed our data, explain the key features of our interactive dashboard, and then provide answers to the above questions.
 
 ## Data Preprocessing
 
@@ -126,7 +136,49 @@ I have also created a mobile dashboard using similar visuals and same dataset. A
 | ------- | ------- | ------- | ------- | ------- |
 | ![Page 1](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20Dashboard%20Page%201.png) | ![Page 2](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%202.png) | ![Page 3](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%203.png) | ![Page 4](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%204.png) | ![Page 5](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%205.png) |
 
+## Answers to the Business Questions
 
+### Countries with the Highest Titles in Netflix
 
+Which country has the highest number of Netflix titles available?
 
-## Additional Insights
+The answer is easily provided by sorting the Country table according to the total number of titles. United States has the highest number of Netflix titles, followed by United Kingdom, Japan, and South Korea.
+
+![country table](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Countries%20with%20Highest%20Number%20of%20Titles.png)
+
+### Average Movie Ratings By Genre
+
+What is the average rating of movies across different genres?
+
+![Genres bar graph](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Aver%20Rating%20and%20Number%20of%20Titles%20by%20Genre.png)
+
+We can see from the bar graph that short movies (8.8), war movies (8.2), film-noir (7.5), and music-related movies (7.3) are among the highest rated, while Mystery (5.8), Sci-Fi (5.6), Thriller (5.3), and Horror movies (4.9) are among the lowest rated movies.
+
+However, we do need to be careful and note that there are only one movie for each of the genres short, war, and film-noir. Among the genres that have a sufficient number of titles to make a general pattern out of them, music-related movies (7.3), documentaries (7.2), and biographies (7.1) are among the highest rated genres.
+
+### Number of Titles Across Different Ratings
+
+How does the availability of titles vary across different rating categories?
+
+![number of titles by rating group](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Number%20of%20Titles%20by%20Rating%20Group.png)
+
+Looking at the funnel chart, we see that the 9-rated movies are very rare, and 7-rated movies are the norm, with the number of titles for different rating categories gradually decreasing as we go from 7-rated movies to 1-rated movies.
+
+### Genres with Most Titles
+
+Which genres have the most content available on Netflix?
+
+We can get the answer by looking at the same bar graph above. Comedy, with 1400 titles, far outweigh other genres in the number of titles, followed by Action (999 titles) and Drama (991 titles).
+
+### Countries with the highest Netflix Market Expansion Potential
+
+Which countries have the highest potential for Netflix market expansion?
+
+One way to gauge this is the number of votes per title, for different countries. A high number of votes per title for a particular country indicates that there are a high number of people who are engaged in that country's films but there are relatively low number of films available currently on Netflix. Thus, a country with such a high number of votes per title is an area where Netflix can hope for a high market growth.
+
+By Changing the map's bubble size by the number of votes per title, we get the following result:
+
+![Number of Votes per Title, across different countries](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Number%20of%20Votes%20Per%20Title%20Across%20Country.png)
+
+We see that - perhaps surprisingly for some - New Zealand has the highest number of votes per title by far, and is followed by Ireland, Czech Republic, United States, UAE, and United Kingdom.
+
