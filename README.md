@@ -4,6 +4,27 @@ We analyze Netflix movie data using Power BI to generate insights. Below is a sc
 
 ![Final Dashboard Screenshot](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Main%20Desktop%20Dashboard.png)
 
+## Table of Contents
+
+1. [Description of the Dataset](#Description-of-the-Dataset)
+2. [Goals of the Project (Relevant Business Questions)](#Relevant-Business-Questions)
+3. [Data Preprocessing](Data-Preprocessing)
+   - [Transform Data](#Transform-Data)
+   - [Creating Calculations and Formatting Table](#Creating-Calculations-and-Formatting-Table)
+   - [Data Modeling](#Data-Modeling)
+4. [Styling](#Styling)
+5. [Dashboard Functionalities](#Dashboard-Functionalities)
+   - Modified Funnel Chart for Showing Distribution of Ratings
+   - Information About Titles By Country
+   - KPIs and Movie-TV Filter
+   - Mobile Dashboard
+6. [Answers to the Business Questions](#Answers-to-the-Business-Questions)
+   - Countries with the Highest Titles in Netflix
+   - Average Movie Ratings By Genre
+   - Number of Titles Across Different Ratings
+   - Genres with Most Titles
+   - Countries with the Highest Netflix Market Expansion Potential
+
 ## Description of the Dataset
 
 We have used the [Netflix Movie and TV Shows dataset from Kaggle](https://www.kaggle.com/datasets/snehaanbhawal/netflix-tv-shows-and-movie-list). The "dataset contains the list and metadata of all TV Shows and Movies available on Netflix currently about 7000 taken from the IMDB website." The name of the original table is `Listings`.
@@ -183,3 +204,6 @@ By Changing the map's bubble size by the number of votes per title, we get the f
 
 We see that - perhaps surprisingly for some - New Zealand has the highest number of votes per title by far, and is followed by Ireland, Czech Republic, United States, UAE, and United Kingdom.
 
+
+
+Thank you for reading!
