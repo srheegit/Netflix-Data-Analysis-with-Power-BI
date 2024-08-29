@@ -26,7 +26,7 @@ More specifically, we have done the following:
 
 #### Removing Unnecessary Columns
 
-We remove the following columns from our original data: `popular_rank`, `certificate`, `endYear`, `episodes`, `language`, `summary`, `isAdult`, `cast`. We may have found the `isAdult` column, which indicates whether a film is supposedly an adult film or not, but checking the column values indicated that the column has only one value, making the data useless for our purpose.
+We remove the following columns from our original data: `popular_rank`, `certificate`, `endYear`, `episodes`, `language`, `summary`, `isAdult`, `cast`. We may have found the `isAdult` column, which indicates whether a film is supposedly an adult film or not, but checking the column values indicated that the column has only one value `0`, making the data useless for our purpose.
 
 #### Renaming Columns and Change Their DataTypes
 
