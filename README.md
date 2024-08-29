@@ -122,7 +122,7 @@ On the top middle portion of the dashboard, I have included a filter that one ca
 
 I have also created a mobile dashboard using similar visuals and same dataset. All the functionalities are the same, while the dashboard's layout is a little different due to screen difference. The full mobile dashboard can be found in the main Power BI file. Below, we include a few screenshots of the movbile dashboard.
 
-| Page 1  | Page 2  | Page 3  | Page 4  | Page 5  |
+| Screenshot 1  | Screenshot 2  | Screenshot 3  | Screenshot 4  | Screenshot 5  |
 | ------- | ------- | ------- | ------- | ------- |
 | ![Page 1](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20Dashboard%20Page%201.png) | ![Page 2](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%202.png) | ![Page 3](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%203.png) | ![Page 4](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%204.png) | ![Page 5](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%205.png) |
 
