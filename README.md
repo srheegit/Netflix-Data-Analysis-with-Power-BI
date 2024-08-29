@@ -124,7 +124,7 @@ I have also created a mobile dashboard using similar visuals and same dataset. A
 
 | Page 1  | Page 2  | Page 3  | Page 4  | Page 5  |
 | ------- | ------- | ------- | ------- | ------- |
-| ![Page 1]() | ![Page 2]() | ![Page 3]() | ![Page 4]() | ![Page 5]() |
+| ![Page 1](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20Dashboard%20Page%201.png) | ![Page 2](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%202.png) | ![Page 3](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%203.png) | ![Page 4](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%204.png) | ![Page 5](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Mobile%20Dashboard/Netflix%20Phone%20dashboard%20Page%205.png) |
 
 
 
