@@ -2,7 +2,7 @@
 
 We analyze Netflix movie data using Power BI to generate insights. Below is a screenshot of the final interactive dashboard created with PowerBI.
 
-![Final Dashboard Screenshot](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Main%20Dashboard.png)
+![Final Dashboard Screenshot](https://github.com/srheegit/Netflix-Data-Analysis-with-Power-BI/blob/main/Screenshots/Desktop%20Dashboard/Main%20Desktop%20Dashboard.png)
 
 ## Description of the Dataset
 
